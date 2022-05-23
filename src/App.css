@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 7vmin;
   pointer-events: none;
 }
 
@@ -21,6 +21,24 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
+
+.App-searchBar{
+  width: 18em;
+  height: 2em;
+  border: 2px solid black;
+  border-radius: 9em;
+  margin: 2em;
+}
+
+.App-searchInput{
+  width: 90%;
+    height: 80%;
+    border: none;
+}
+
+/* .App-searchInput:focus{
+  border: none;
+} */
 
 .App-link {
   color: rgb(112, 76, 182);
